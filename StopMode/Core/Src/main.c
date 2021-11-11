@@ -109,7 +109,7 @@ int main(void)
   MX_USART2_UART_Init();
   MX_RTC_Init();
   /* USER CODE BEGIN 2 */
-  uint8_t var = 0;
+  uint8_t var = 1000;
   for (var = 0; var < 20; ++var) {
 	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 	  HAL_Delay(300);
